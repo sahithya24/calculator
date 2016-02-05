@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        
+    </head>
+    <body>
+        <div  id="calc">
+            <form name="cal">
+                <input type="text" id="res"><br>
+                <input type="button" value="=" id="eql" onclick="result()">
+                <input type="button" value="sqrt" id="root" onclick="squr()">
+                <input type="button" value="%" id="mod" onclick="dispVal('%')"><br>
+                
+                <input type="button" value="7" id="btn" onclick="dispVal('7')">
+                <input type="button" value="8" id="btn" onclick="dispVal('8')">
+                <input type="button" value="9" id="btn" onclick="dispVal('9')">
+                <input type="button" value="/" id="btn" onclick="dispVal('/')"><br>
+                
+                <input type="button" value="4" id="btn" onclick="dispVal('4')">
+                <input type="button" value="5" id="btn" onclick="dispVal('5')">
+                <input type="button" value="6" id="btn" onclick="dispVal('6')">
+                <input type="button" value="*" id="btn" onclick="dispVal('*')"><br>
+                
+                <input type="button" value="1" id="btn" onclick="dispVal('1')">
+                <input type="button" value="2" id="btn" onclick="dispVal('2')">
+                <input type="button" value="3" id="btn" onclick="dispVal('3')">
+                <input type="button" value="-" id="btn" onclick="dispVal('-')"><br>
+                
+                <input type="button" value="C" id="btn" onclick="clr()">
+                <input type="button" value="0" id="btn" onclick="dispVal('0')">
+                <input type="button" value="." id="btn" onclick="dispVal('.')">
+                <input type="button" value="+" id="btn" onclick="dispVal('+')"><br>
+
+            </form>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
